@@ -19,6 +19,7 @@ class MyApp extends StatefulWidget {
   _MyAppState createState() => new _MyAppState();
 }
 
+
 class _MyAppState extends State<MyApp> {
   static final DeviceInfoPlugin deviceInfoPlugin = new DeviceInfoPlugin();
   Map<String, dynamic> _deviceData = <String, dynamic>{};
